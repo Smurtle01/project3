@@ -1,0 +1,208 @@
+/* Import a Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+
+nav {
+  background-color: #333;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+  padding: 10px 15px;
+}
+
+nav ul li a:hover {
+  color: #ff6b6b;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Arial', Helvetica, sans-serif;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 22px;
+  font-family: 'Arial', Helvetica, sans-serif;
+  background-color: #000000;
+  color: #f4f4f4;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px; 
+  font-family: 'Arial', Helvetica, sans-serif; 
+  color: #2c3e50; 
+  text-transform: uppercase; 
+  margin-bottom: 10px; 
+}
+
+/* Main content container */
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Homepage Sections */
+.home {
+  background-color: #fefae0;
+  border-left: 6px solid #dda15e;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.hobbies {
+  background-color: #faedcd;
+  border-left: 6px solid #bc6c25;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+/* Resume Sections */
+.experience {
+  background-color: #e9edc9;
+  border-left: 6px solid #ccd5ae;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.education {
+  background-color: #d4a373;
+  border-left: 6px solid #e76f51;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.activities {
+  background-color: #f4a261;
+  border-left: 6px solid #264653;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.skills {
+  background-color: #f6bd60;
+  border-left: 6px solid #3d405b;
+  padding: 25px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+/* Banket Recipe Sections */
+.ingredients {
+  background-color: #ffddd2;
+  border-left: 6px solid #e63946;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.instructions {
+  background-color: #f4f1de;
+  border-left: 6px solid #457b9d;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+/* Lists */
+ul, ol {
+  text-align: left;
+  display: inline-block;
+  padding-left: 30px;
+  line-height: 2;
+}
+
+.ingredients-list {
+  list-style-type: square;
+  color: #e63946;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ingredients-list li {
+  width: 48%;
+  padding: 5px 0;
+  white-space: nowrap;
+}
+
+.instructions-list {
+  list-style-type: decimal;
+  color: #457b9d;
+}
+
+.skills-list {
+  list-style-type: circle;
+  color: #3d405b;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.skills-list li {
+  display: block;
+  padding: 6px 0;
+}
+/* Image Styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 15px 0;
+  border: 4px solid #ccc;
+  padding: 5px;
+}
+
+/* Links */
+a {
+  color: #e76f51;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
