@@ -217,29 +217,29 @@ p {
 
 /* Smaller Screens (min-width: 600px) */
 @media (min-width: 600px) {
-  body {
+  .resume-page body {
     padding: 20px;
     background-color: #eaeaea;
   }
 
-  nav ul {
+  .resume-page nav ul {
     flex-direction: row;
     justify-content: space-around;
     background-color: #222;
   }
 
-  nav a {
+  .resume-page nav a {
     background-color: transparent;
     padding: 10px 15px;
     color: #fff;
   }
 
-  main {
+  .resume-page main {
     max-width: 700px;
     margin: auto;
   }
 
-  section {
+  .resume-page section {
     padding: 10px 20px;
     background-color: white;
     border-radius: 10px;
@@ -248,34 +248,34 @@ p {
 
 /* Large Screens (min-width: 900px) */
 @media (min-width: 900px) {
-  body {
+  .resume-page body {
     font-size: 18px;
     padding: 40px;
     background-color: #f0f0f0;
   }
 
-  nav ul {
+  .resume-page nav ul {
     justify-content: flex-end;
   }
 
-  nav li {
+  .resume-page nav li {
     margin-left: 20px;
   }
 
-  main {
+  .resume-page main {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 40px;
     max-width: 1000px;
   }
 
-  h1 {
+  .resume-page h1 {
     grid-column: span 2;
     font-size: 2.5rem;
     margin-bottom: 30px;
   }
 
-  section {
+  .resume-page section {
     background-color: #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
