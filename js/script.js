@@ -35,3 +35,42 @@
     radius: 2000,
   });
 }
+
+// script.js
+document.addEventListener("DOMContentLoaded", () => {
+  // Picture Slider Logic (Banket Page)
+  const sliderImages = [
+    "images/banket1.jpeg",
+    "images/banket2.jpg",
+    "images/banket3.jpg"
+  ];
+
+  let currentSlide = 0;
+  const sliderImg = document.querySelector(".slider-image");
+  const prevBtn = document.querySelector(".slider-btn.prev");
+  const nextBtn = document.querySelector(".slider-btn.next");
+
+  function updateSlide(index) {
+    if (sliderImg) {
+      sliderImg.src = sliderImages[index];
+    }
+  }
+
+  if (sliderImg && prevBtn && nextBtn) {
+    prevBtn.addEventListener("click", () => {
+      currentSlide = (currentSlide - 1 + sliderImages.length) % sliderImages.length;
+      updateSlide(currentSlide);
+    });
+
+    nextBtn.addEventListener("click", () => {
+      currentSlide = (currentSlide + 1) % sliderImages.length;
+      updateSlide(currentSlide);
+    });
+
+    // Optional autoplay every 5 seconds
+    setInterval(() => {
+      currentSlide = (currentSlide + 1) % sliderImages.length;
+      updateSlide(currentSlide);
+    }, 5000);
+  }
+});
