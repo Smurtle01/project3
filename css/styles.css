@@ -206,3 +206,9 @@ p {
   padding: 5px;
 }
 
+/* Google Maps */
+  #map {
+    height: 40em;
+    width: 60%;
+    margin: 0 auto;
+  }
